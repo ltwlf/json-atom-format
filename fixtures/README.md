@@ -92,3 +92,7 @@ Level 2 fixtures include `oldValue` on every `replace` and `remove` operation (a
 | `move-keyed-array-element.json` | 2 | Move an element between keyed arrays |
 | `copy-property.json` | 2 | Copy a property value to another location |
 | `mixed-operations.json` | 2 | All five operation types in one delta |
+| `mixed-member-filter.json` | 2 | Mixed dot/bracket filter members preserve literal dots in nested identity properties. |
+| `typed-key-filters.json` | 2 | Numeric, string and boolean identities are distinct. |
+| `escaped-property-and-filter.json` | 2 | Doubled quotes escape literal quotes in properties and filter strings. |
+| `nested-boolean-number.json` | 2 | JSON booleans and numbers remain distinct inside containers. |

@@ -207,7 +207,7 @@ JSON‑Atom Format supports extensions through additional properties on both the
 
 ## Specification
 
-The full draft specification is at [spec/v0.md](spec/v0.md).
+The full draft specification is at [spec/v0.md](spec/v0.md). The draft name `v0`, the wire-format field `"version": 1`, and implementation package versions are separate version numbers.
 
 Conformance test fixtures are in [fixtures/](fixtures/).
 
@@ -216,7 +216,7 @@ Conformance test fixtures are in [fixtures/](fixtures/).
 ## Implementations
 
 - **[json-diff-ts](https://github.com/ltwlf/json-diff-ts)** — TypeScript library for computing, applying, and reverting JSON changesets. The originating implementation from which JSON‑Atom Format was derived.
-- **[json-atom](https://github.com/ltwlf/json-atom)** — Python library implementing the full JSON‑Atom Format v0 specification. Level 2 (Reversible) conformance.
+- **[json-atom-py](https://github.com/ltwlf/json-atom-py)** — Python implementation, published on PyPI as [`json-atom`](https://pypi.org/project/json-atom/). Install with `pip install json-atom`; import `json_atom`.
 
 ---
 
@@ -225,6 +225,8 @@ Conformance test fixtures are in [fixtures/](fixtures/).
 **Draft v0** — JSON‑Atom Format is a draft specification. The core format is stable, but details may evolve before a v1 release. Feedback and contributions are welcome.
 
 ---
+
+Created by [Christian Glessner](https://www.linkedin.com/in/christian-glessner/).
 
 ## License
 
